@@ -1,4 +1,4 @@
-package Date1105;
+package Bronze;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
