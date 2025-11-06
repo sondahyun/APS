@@ -1,0 +1,26 @@
+!SESSION 2025-11-05 16:04:40.057 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=23
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sondahyun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sondahyun/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-05 16:04:48.465
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-05 16:09:09.406
+!MESSAGE Logback config file: /Users/sondahyun/CodingTest/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2025-11-05 16:10:20.008 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=23
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sondahyun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sondahyun/.eclipse_keyring -data file:/Users/sondahyun/CodingTest/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-05 16:10:24.702
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-05 16:10:27.625
+!MESSAGE Logback config file: /Users/sondahyun/CodingTest/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
