@@ -8,12 +8,9 @@ public class B25314 {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(in.readLine());
 
-        for (int i = 1; i <= T; i++) {
-            String[] split = in.readLine().split(" ");
-            int A = Integer.parseInt(split[0]);
-            int B = Integer.parseInt(split[1]);
-
-            System.out.println(A + B);
+        for (int i = 1; i <= T/4; i++) {
+            System.out.print("long ");
         }
+        System.out.println("int");
     }
 }
