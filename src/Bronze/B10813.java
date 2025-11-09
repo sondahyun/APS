@@ -3,24 +3,26 @@ package Bronze;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class B10871 {
+public class B10813 {
     public static StringBuilder sb = new StringBuilder();
-    public static int N;
-    public static int X;
     public static void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(in.readLine());
         String[] split = in.readLine().split(" ");
 
-        N = Integer.parseInt(split[0]);
-        X = Integer.parseInt(split[1]);
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
-        String[] A = in.readLine().split(" ");
         for (int i = 0; i < N; i++) {
-            int a = Integer.parseInt(A[i]);
-            if (a < X) {
-                System.out.print(a + " ");
+            int a = Integer.parseInt(split[i]);
+            if (max < a) {
+                max = a;
+            }
+            if (min > a) {
+                min = a;
             }
         }
 
+        System.out.println(min + " " + max);
     }
 }
