@@ -7,16 +7,18 @@ public class B3052 {
     public static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        int[] people = new int[31];
-        for (int i = 1; i <= 28; i++) {
-            int num = Integer.parseInt(in.readLine());
+        int[] people = new int[43];
+        for (int i = 1; i <= 10; i++) {
+            int num = Integer.parseInt(in.readLine()) % 42;
             people[num] = 1;
         }
 
-        for (int i = 1; i < 31; i++) {
-            if (people[i] == 0) {
-                System.out.println(i);
+        int count = 0;
+        for (int i = 0; i < 42; i++) {
+            if (people[i] == 1) {
+                count++;
             }
         }
+        System.out.println(count);
     }
 }
