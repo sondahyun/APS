@@ -9,13 +9,14 @@ public class B10988 {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
         String[] split = in.readLine().split("");
-        int flag = 0;
+        int flag = 1; // 길이가 1일때를 대비해야함
 
         for (int i = 0; i < split.length / 2; i++) {
             if (split[i].equals(split[split.length-i-1])) {
                 flag = 1;
-            }else {
+            } else {
                 flag = 0;
+                break;
             }
         }
         System.out.println(flag);
